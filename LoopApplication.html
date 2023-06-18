@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+  <div id="buttonsContainer" ></div>
+<script>
+   
+const buttonsContainer = document.getElementById("buttonsContainer");
+vin=[{nam:"Meshach"}, {nam:"Winakyd",},{nam:"Meshach"},{nam:"Qoppo"}]
+for (var i = 0; i < 5; i++) {
+  const button = document.createElement("button");   
+  button.innerText = vin[i].nam;
+  button.addEventListener("click", function() {
+    console.log(i);
+
+  });
+
+  buttonsContainer.appendChild(button);
+
+}
+</script>
+</body>
+</html>
