@@ -1,2 +1,2 @@
 # AddEvent
-EventListener is used here.User input text ,arranging them inascending and desceding order  and  result is displayed.
+EventListener is used here.User input text ,code arrange them in ascending and desceding order  and  result is displayed.
